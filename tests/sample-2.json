@@ -1,0 +1,164 @@
+{
+    "table_name": "hackernews_items",
+    "data": [
+        {
+            "type": "UUID",
+            "value": {
+                "Bytes": [
+                    193,
+                    88,
+                    86,
+                    25,
+                    244,
+                    185,
+                    69,
+                    86,
+                    132,
+                    207,
+                    204,
+                    129,
+                    202,
+                    231,
+                    165,
+                    185
+                ],
+                "Status": 2
+            }
+        },
+        {
+            "type": "UUID",
+            "value": {
+                "Bytes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Status": 1
+            }
+        },
+        {
+            "type": "Int8",
+            "value": {
+                "Int": 1999,
+                "Status": 2
+            }
+        },
+        {
+            "type": "Bool",
+            "value": {
+                "Bool": false,
+                "Status": 2
+            }
+        },
+        {
+            "type": "Text",
+            "value": {
+                "Str": "comment",
+                "Status": 2
+            }
+        },
+        {
+            "type": "Text",
+            "value": {
+                "Str": "juwo",
+                "Status": 2
+            }
+        },
+        {
+            "type": "Timestamptz",
+            "value": {
+                "Time": "2007-03-03T16:27:33Z",
+                "Status": 2,
+                "InfinityModifier": 0
+            }
+        },
+        {
+            "type": "Text",
+            "value": {
+                "Str": "It is not shrink wrapped, it is via viral distribution via web.\nif you would like to run a demo, please read my reply to jwecker an do contact me. (sorry for the repeat posts, but there doesnt seem to be email notifications or even highlighting of new posts).",
+                "Status": 2
+            }
+        },
+        {
+            "type": "Bool",
+            "value": {
+                "Bool": false,
+                "Status": 2
+            }
+        },
+        {
+            "type": "Int8",
+            "value": {
+                "Int": 1945,
+                "Status": 2
+            }
+        },
+        {
+            "type": "Int8Array",
+            "value": {
+                "Elements": [
+                    {
+                        "Int": 5091,
+                        "Status": 2
+                    }
+                ],
+                "Dimensions": [
+                    {
+                        "Length": 1,
+                        "LowerBound": 1
+                    }
+                ],
+                "Status": 2
+            }
+        },
+        {
+            "type": "Text",
+            "value": {
+                "Str": "",
+                "Status": 2
+            }
+        },
+        {
+            "type": "Int8",
+            "value": {
+                "Int": 0,
+                "Status": 2
+            }
+        },
+        {
+            "type": "Text",
+            "value": {
+                "Str": "",
+                "Status": 2
+            }
+        },
+        {
+            "type": "Int8Array",
+            "value": {
+                "Elements": null,
+                "Dimensions": null,
+                "Status": 1
+            }
+        },
+        {
+            "type": "Int8",
+            "value": {
+                "Int": 0,
+                "Status": 2
+            }
+        }
+    ]
+}

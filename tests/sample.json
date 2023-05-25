@@ -1,0 +1,76 @@
+{
+	"table_name": "hackernews_items",
+	"data": [
+		{
+			"type": "JSON",
+			"value": {
+				"Bytes": [89, 182, 12, 9, 136, 155, 73, 213, 133, 253, 65, 231, 180, 3, 243, 86],
+				"Status": 2
+			}
+		},
+		{
+			"type": "JSON",
+			"value": {
+				"Bytes": "eyJ0ZWFtY2l0eV9hZ2VudCI6eyJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24ifX0=",
+				"Status": 2
+			}
+		},
+		{
+			"type": "TextArray",
+			"value": {
+				"Elements": [{
+					"Str": "test1",
+					"Status": 2
+				}]
+			}
+		},
+		{
+			"type": "IntArray",
+			"value": {
+				"Elements": [{
+					"Int":  1,
+					"Status": 2
+				}]
+			}
+		},
+		{
+			"type": "UUID",
+			"value": {
+				"Bytes": [89, 182, 12, 9, 136, 155, 73, 213, 133, 253, 65, 231, 180, 3, 243, 86],
+				"Status": 2
+			}
+		}, {
+			"type": "Timestamptz",
+			"value": {
+				"Time": "2006-10-12T13:59:30Z",
+				"Status": 2,
+				"InfinityModifier": 0
+			}
+		}, {
+			"type": "Bool",
+			"value": {
+				"Bool": false,
+				"Status": 2
+			}
+		}, {
+			"type": "Text",
+			"value": {
+				"Str": "Boston VCs invest in fewer consumer Internet startups than Silicon Valley firms",
+				"Status": 2
+			}
+		}, {
+			"type": "Int8Array",
+			"value": {
+				"Elements": null,
+				"Dimensions": null,
+				"Status": 1
+			}
+		}, {
+			"type": "Int8",
+			"value": {
+				"Int": 0,
+				"Status": 2
+			}
+		}
+	]
+}

@@ -17,11 +17,11 @@ cd ..
 pip3 install grpcio-tools
 
 version=v1
-vdir="./v/$version"
+vdir="./cq/$version"
 mkdir -p $vdir
 curl https://raw.githubusercontent.com/cloudquery/plugin-pb/main/source/$version/source.proto > "${vdir}/source.proto"
 python3 -m grpc_tools.protoc --proto_path=$vdir $vdir/source.proto --python_out=$vdir --grpc_python_out=$vdir
-sed -i '' "s/import source_pb2/import v.${version}.source_pb2/" $vdir/source_pb2_grpc.py
+sed -i '' "s/import source_pb2/import cq.${version}.source_pb2/" $vdir/source_pb2_grpc.py
 ```
 
 
@@ -29,3 +29,9 @@ sed -i '' "s/import source_pb2/import v.${version}.source_pb2/" $vdir/source_pb2
 **protobuf**  
 - https://www.datadoghq.com/blog/engineering/protobuf-parsing-in-python/
 - https://velotio.medium.com/implementing-grpc-in-python-a-step-by-step-guide-e9733871acb0
+
+**debugging**  
+```
+export GRPC_VERBOSITY=debug
+export GRPC_TRACE=executor,api,call
+```

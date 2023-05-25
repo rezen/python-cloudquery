@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import v.v1.source_pb2 as source__pb2
+import cq.v1.source_pb2 as source__pb2
 
 
 class SourceStub(object):

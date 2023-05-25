@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import v.v2.source_pb2 as source__pb2
+import cq.v2.source_pb2 as source__pb2
 
 
 class SourceStub(object):
@@ -63,57 +63,57 @@ class SourceServicer(object):
         """Get the name of the plugin
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('HELPPPPPP')
+        raise NotImplementedError('GetName')
 
     def GetVersion(self, request, context):
         """Get the current version of the plugin
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('HELPPPPPP')
+        raise NotImplementedError('HELPPPPPP')
 
     def GetTables(self, request, context):
         """Get all static tables the source plugin supports
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('HELPPPPPP')
+        raise NotImplementedError('HELPPPPPP')
 
     def GetMetrics(self, request, context):
         """Get metrics for the source plugin
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('metrs')
+        raise NotImplementedError('metrs')
 
     def Init(self, request, context):
         """Configure the plugin with the given credentials and mode
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('init')
+        raise NotImplementedError('init')
 
     def GetDynamicTables(self, request, context):
         """Get all tables the source plugin supports. Must be called after Init
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('dyn')
+        raise NotImplementedError('dyn')
 
     def Sync(self, request, context):
         """Start the sync the source plugin
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('sync')
+        raise NotImplementedError('snyc')
 
     def GenDocs(self, request, context):
         """Generate documentation for the source plugin
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
+        context.set_details('docs')
+        raise NotImplementedError('docs')
 
 
 def add_SourceServicer_to_server(servicer, server):
